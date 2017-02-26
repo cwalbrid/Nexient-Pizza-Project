@@ -1,8 +1,8 @@
 <h1>Dis be Location</h1>
 
 <ul>
-	<li ng-repeat="pizza in pizzaData">
+	<li ng-repeat="pizza in pizzaData" ng-click="isActive = !isActive">
 		<h1>{{pizza.name}}</h1>
-		<p>{{pizza.ingredients}}</p>
+		<p isolate ng-class="{'userActive' : isActive, 'userInactive' : !isActive}">{{pizza.ingredients}}</p>
 	</li>
 </ul>

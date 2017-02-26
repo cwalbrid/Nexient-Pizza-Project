@@ -1,0 +1,8 @@
+.userActive{
+	display: block;
+}
+
+.userInactive {
+	display: none;
+	transition: 3s;
+}

@@ -15,8 +15,8 @@ app.config(function($routeProvider){
 	// 	controller: "myCtrl"
 	// });
 	$routeProvider.otherwise({
-		templateUrl: "views/home.html"
-		// controller: "myCtrl"
+		templateUrl: "views/home.html",
+		// controller: "homeCtrl"
 	});
 });
 
@@ -31,7 +31,15 @@ app.controller('myCtrl', function($scope, viewStore){
 
 		$scope.pizzaData = displayView.pizzaData;
 		console.log($scope.pizzaData);
+
+		$scope.toggle = false;
 	};
+
+	$scope.hide = function(){
+		$scope.toggle = true;
+		console.log($scope.toggle);
+	}
+
 
 
 
@@ -61,6 +69,12 @@ app.controller('myCtrl', function($scope, viewStore){
 
 
 });
+
+app.directive('isolate', function() {
+    return {scope: true};
+});
+
+
 
 // app.controller('fr1Ctrl', function($scope, viewStore){
 	
