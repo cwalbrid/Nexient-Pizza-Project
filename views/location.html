@@ -1,8 +1,10 @@
-<h1>Dis be Location</h1>
+<div>
+<h1>{{display.franchise}} Brick Oven Pizza Co.</h1>
+<h2>{{display.city}} since {{display.date}}</h2>
+<h3>{{display.blurb}}</h3>
+</div>
 
-<ul>
-	<li ng-repeat="pizza in pizzaData" ng-click="isActive = !isActive">
-		<h1>{{pizza.name}}</h1>
-		<p isolate ng-class="{'userActive' : isActive, 'userInactive' : !isActive}">{{pizza.ingredients}}</p>
-	</li>
-</ul>
+<pizza></pizza>
+
+
+
