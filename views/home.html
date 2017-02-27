@@ -1,13 +1,25 @@
 
-<div class="wrapper">
-	<h1 class="title">Brick Oven Pizza Co.</h1>
+<div class="header">
+	
 
-	<ul class="nav">
-		<li ng-repeat="nav in navArray">
-			<a ng-href="#/location" ng-click="setLoc(nav.location)">{{nav.location}}</a>
-		</li>
-	</ul>
+	<div class="nav-wrapper">	
+		<h1 class="title">Brick Oven Pizza Co.</h1>
 
+		<ul class="nav">
+			<li ng-repeat="nav in navArray">
+				<a ng-href="#/location" ng-click="setLoc(nav.location)">{{nav.location}}</a>
+			</li>
+		</ul>
+	</div>	
+</div>
+
+
+<div class="body-wrapper">
+	
+	<div class="byline">
+		<h2 >An artisan experience 65 years in the making</h2><hr>
+	</div>
+	
 	<div class="home-copy">
 		<p class="home-copy-text">
 			"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
