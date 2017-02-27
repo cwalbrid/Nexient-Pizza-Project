@@ -25,17 +25,17 @@ app.factory('viewStore', function(){
 				pizzaData: [
 					{
 						name: 'cheese1',
-						blurb: 'This pizza is sooo good!',
+						blurb: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.',
 						ingredients: 'mozzarella, chevre, provalone'
 					},
 					{
 						name: 'veggie1',
-						blurb: 'This pizza is sooo good!',
+						blurb: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.',
 						ingredients: 'green bell peppers, sun-dried tomatoes, mushrooms, spinach, feta'
 					},
 					{
 						name: 'meat1',
-						blurb: 'This pizza is sooo good!',
+						blurb: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.',
 						ingredients: 'pepperoni, sausage, bacon'
 					}
 				]
@@ -46,22 +46,22 @@ app.factory('viewStore', function(){
 			data: {
 				franchise: 'Windy City',
 				city: 'Chicago',
-				blurb: '',
+				blurb: 'Empire State is the original Brick Oven Pizza Co franchise. Our founder, Giuseppe Giacosa, believed the best pizza came from top notch ingredients and a little Sicilian know-how. Millions of satisfied customers later, his legacy lives on.',
 				date: '1963',
 				pizzaData: [
 					{
 						name: 'cheese2',
-						blurb: 'This pizza is sooo good!',
+						blurb: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.',
 						ingredients: 'mozzarella, chevre, provalone'
 					},
 					{
 						name: 'veggie2',
-						blurb: 'This pizza is sooo good!',
+						blurb: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.',
 						ingredients: 'green bell peppers, sun-dried tomatoes, mushrooms, spinach, feta'
 					},
 					{
 						name: 'meat2',
-						blurb: 'This pizza is sooo good!',
+						blurb: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.',
 						ingredients: 'pepperoni, sausage, bacon'
 					}
 				]
@@ -72,22 +72,22 @@ app.factory('viewStore', function(){
 			data: {
 				franchise: 'Golden Gate',
 				city: 'San Francisco',
-				blurb: '',
+				blurb: 'Empire State is the original Brick Oven Pizza Co franchise. Our founder, Giuseppe Giacosa, believed the best pizza came from top notch ingredients and a little Sicilian know-how. Millions of satisfied customers later, his legacy lives on.',
 				date: '1969',
 				pizzaData: [
 					{
 						name: 'cheese3',
-						blurb: 'This pizza is sooo good!',
+						blurb: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.',
 						ingredients: 'mozzarella, chevre, provalone'
 					},
 					{
 						name: 'veggie3',
-						blurb: 'This pizza is sooo good!',
+						blurb: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.',
 						ingredients: 'green bell peppers, sun-dried tomatoes, mushrooms, spinach, feta'
 					},
 					{
 						name: 'meat3',
-						blurb: 'This pizza is sooo good!',
+						blurb: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.',
 						ingredients: 'pepperoni, sausage, bacon'
 					}
 				]
