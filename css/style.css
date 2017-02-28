@@ -29,7 +29,7 @@ body{
 
 /*home.html*/
 
-.header{
+.home-header{
 	position: relative;
 	background-color: #42423D;
 	background: linear-gradient(to right,
@@ -48,14 +48,13 @@ body{
 	background-repeat: no-repeat;
 	background-size: cover;
 	display: flex;
-	position: relative;
 }
 
 .nav-wrapper{
 	margin: 0 auto;
 }
 
-.title {
+.home-title {
 	margin: 40% auto 30%;
 	width: 510px;
 	text-transform: uppercase;
@@ -117,8 +116,27 @@ body{
 
 /*location.html*/
 
-.franchise{
 
+.location-header-wrapper{
+	/*width: 100%;*/
+	position: relative;
+	height: 490px;
+}
+
+.location-header{
+	margin: 0 auto;
+	position: absolute;
+	width: 100%;
+}
+
+
+.franchise-title{
+	margin: 13% auto;
+	width: 420px;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	font-size: 44px;
+	color: white;
 }
 
 .location{

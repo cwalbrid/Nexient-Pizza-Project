@@ -8,6 +8,6 @@ app.config(function($routeProvider){
 
 	$routeProvider.otherwise({
 		templateUrl: "views/home.html"
-		// controller: "homeCtrl"
+		// controller: "myCtrl"
 	});
 });

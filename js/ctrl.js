@@ -14,6 +14,7 @@ app.controller('myCtrl', function($scope, viewStore){
 		console.log($scope.display)
 
 		$scope.toggle = false;
+
 	};
 
 	$scope.hide = function(){
