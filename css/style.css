@@ -57,12 +57,7 @@ body{
 	  rgba(106, 106, 98, .3)
 	  ),
 	  url("../img/patio.jpg");
-
-	/* Set a specific height */
 	min-height: 650px; 
-	
-
-	/* Create the parallax scrolling effect */
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -161,7 +156,6 @@ body{
 .location-header{
 	margin: 0 auto;
 	overflow: hidden;
-	/*position: absolute;*/
 	width: 100%;
 }
 
@@ -245,14 +239,14 @@ body{
 
 .menu{
 	margin: 20px 0;
-	/*background-color: red;*/
+	
 	list-style-type: none;
   	overflow: hidden;
   	width: 100%;
   	border: 1px solid black;
 }
 .menu li {
-	/*margin: 10px 0 10px;*/
+	
 	padding: 30px;
 	border: 1px solid black;
 	transition: .3s;

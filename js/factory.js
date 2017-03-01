@@ -20,7 +20,7 @@ app.factory('viewStore', function(){
 			data: {
 				franchise: 'Empire State',
 				city: 'New York',
-				blurb: 'Empire State is the original Brick Oven Pizza Company. Giuseppe Giacosa dreamt of a neighborhood pizzeria where ordinary folks could gather to share delicious food and enjoy one another’s company. As word spread about the restaurant, customers came from miles around to experience the Best Pizza in the Borough.',
+				blurb: 'Empire State is the original Brick Oven Pizza Company. Giuseppe Giacosa dreamt of a neighborhood pizzeria where ordinary folks could gather to share delicious food and enjoy one another'+"’"+'s company. As word spread about the restaurant, customers came from miles around to experience the Best Pizza in the Borough.',
 				date: '1952',
 				phone:'(718) 599-2211',
 				myStyle: {
@@ -40,12 +40,12 @@ app.factory('viewStore', function(){
 					},
 					{
 						name: 'Margherita Fresca',
-						blurb: 'A lighter, health-conscious pie packed with fresh flavorsA',
+						blurb: 'A lighter, health-conscious pie packed with fresh flavor',
 						ingredients: 'mushrooms, tomatoes, basil, olive oil'
 					},
 					{
 						name: 'Patrick' + "'" + 's Favorite Pepperoni',
-						blurb: 'A unique pepperoni recipe invented by Giuseppe’s best friend',
+						blurb: 'A unique pepperoni recipe invented by Giuseppe’s childhood friend, Patrick Callahan',
 						ingredients: 'pepperoni, onion, garlic, red bell pepper'
 					}
 				]
@@ -56,7 +56,7 @@ app.factory('viewStore', function(){
 			data: {
 				franchise: 'Windy City',
 				city: 'Chicago',
-				blurb: 'Rumor has it Giuseppe founded the Windy City Brick Oven Pizza franchise when his High School Sweetheart, Loretta Simmons, moved to Chicago to pursue a career as a blues singer. Chicagoans fell in love with Brick Oven Pizza’s signature style, and Giuseppe married Loretta in 1964.',
+				blurb: 'Giuseppe founded the Windy City Brick Oven Pizza franchise when his High School Sweetheart, Loretta Simmons, moved to Chicago to pursue a career as a blues singer. Chicagoans fell in love with Brick Oven Pizza’s signature style, and Giuseppe married Loretta in 1964.',
 				date: '1963',
 				phone:'(773) 525-4582',
 				myStyle: {
@@ -71,7 +71,7 @@ app.factory('viewStore', function(){
 				pizzaData: [
 					{
 						name: 'Goat Cheese Special',
-						blurb: 'A distinct goat-cheese pizza made with Wisconsin Chevre',
+						blurb: 'A distinct goat cheese pizza made with Wisconsin Chevre',
 						ingredients: 'mozzarella, chevre, chives'
 					},
 					{
@@ -92,7 +92,7 @@ app.factory('viewStore', function(){
 			data: {
 				franchise: 'Golden Gate',
 				city: 'San Francisco',
-				blurb: 'Giuseppe and Loretta Giacosa yearned to see the West Coast, and established the Golden Gate Brick Oven Pizza franchise during San Francisco’s Summer of Love. Mobs of local Flower Children swarmed the pizzeria, and it became a favorite spot for local musicians, poets, and artists to exhibit their work.',
+				blurb: 'Giuseppe and Loretta Giacosa yearned to see the West Coast, and established the Golden Gate Brick Oven Pizza franchise during San Francisco’s Summer of Love. Mobs of Flower Children swarmed the pizzeria, and it became a favorite spot for local musicians, poets, and artists to exhibit their work.',
 				date: '1967',
 				phone:'(415) 668-5587',
 				myStyle: {
@@ -125,7 +125,7 @@ app.factory('viewStore', function(){
 		}
 	];
 	
-	var filter = 'New York';
+	var filter = '';
 
 	return{
 		
@@ -135,7 +135,6 @@ app.factory('viewStore', function(){
 
 		setFilter: function(location){
 			filter = location;
-			console.log('The filter was set to ' + filter);
 		},
 
 		getView: function(){

@@ -2,27 +2,33 @@
 <html ng-app="myApp">
 <head>
 	<title></title>
+	<!-- CSS -->
 	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<!-- FAVICON -->
 	<link rel="icon" href="pizza-favicon.ico" type="image/x-icon"/>
 	<link rel="shortcut icon" href="pizza-favicon.ico" type="image/x-icon"/>
+	<!-- FONTS -->
 	<link href="https://fonts.googleapis.com/css?family=Lobster|Noto+Serif:400i|Open+Sans:400|Roboto:700" rel="stylesheet">
 </head>
 <body ng-controller="myCtrl">
 	
+	<!-- HOME ICON -->
 	<div class="icon">
 		<a href="#/home"><img src="img/pizza-white.png" class="icon-img"><p class="icon-copy">Home</p></a>
 	</div>
 
+	<!-- NG-VIEW -->
 	<div ng-view=""></div>
 
-
+	<!-- FOOTER -->
 	<div class="footer">
 		<p class="footer-copy">Copyright 2017 Brick Oven Pizza Co. Inc, all rights reserved.</p>
 	</div>
 
+	<!-- ANGULAR LIB -->
 	<script src="angular/angular.min.js"></script>
 	<script src="angular/angular-route.min.js"></script>
-	
+	<!-- CUSTOM JS -->
 	<script src="js/route.js"></script>
 	<script src="js/ctrl.js"></script>
 	<script src="js/factory.js"></script>

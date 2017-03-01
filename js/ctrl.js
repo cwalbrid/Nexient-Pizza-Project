@@ -2,18 +2,17 @@
 var app = angular.module('myApp');
 
 app.controller('myCtrl', function($scope, viewStore){
-	$scope.navArray = viewStore.getNav();
 	
-	$scope.display = viewStore.getView();
+	// BINDS NAV DATA TO $SCOPE
+	$scope.navArray = viewStore.getNav();
 
 	$scope.setLoc = function(location){
 		
+		// SETS FILTER KEYWORD
 		viewStore.setFilter(location);
-		
-		var displayView = viewStore.getView();
-		
-		$scope.display = displayView;
-		console.log($scope.display)
+
+		// BINDS FILTERED VIEW DATA TO $SCOPE
+		$scope.display = viewStore.getView();
 
 		$scope.toggle = false;
 
@@ -21,7 +20,6 @@ app.controller('myCtrl', function($scope, viewStore){
 
 	$scope.hide = function(){
 		$scope.toggle = true;
-		console.log($scope.toggle);
 	}
 
 });
@@ -31,7 +29,7 @@ app.directive('isolate', function() {
     return {scope: true};
 });
 
-
+// PIZZA DIRECTIVE
 app.directive('pizza', function() {
   return {
     restrict: 'E',
