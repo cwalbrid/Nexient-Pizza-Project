@@ -23,7 +23,6 @@ app.factory('viewStore', function(){
 				blurb: 'Empire State is the original Brick Oven Pizza Co franchise. Our founder, Giuseppe Giacosa, believed the best pizza came from top notch ingredients and a little Sicilian know-how. Millions of satisfied customers later, his legacy lives on.',
 				date: '1952',
 				myStyle: {
-						'postion' : "absolute",
 						'background-color' : '#42423D',
 						'background' : "linear-gradient(to right, rgba(106, 106, 98, .3), rgba(106, 106, 98, .3)), url('../img/empire-state.jpg')",
 						'min-height' : "490px",
@@ -59,7 +58,6 @@ app.factory('viewStore', function(){
 				blurb: 'Empire State is the original Brick Oven Pizza Co franchise. Our founder, Giuseppe Giacosa, believed the best pizza came from top notch ingredients and a little Sicilian know-how. Millions of satisfied customers later, his legacy lives on.',
 				date: '1963',
 				myStyle: {
-						'postion' : "relative",
 						'background-color' : '#42423D',
 						'background' : "linear-gradient(to right, rgba(106, 106, 98, .3), rgba(106, 106, 98, .3)), url('../img/windy-city.jpg')",
 						'min-height' : "490px",
@@ -95,7 +93,6 @@ app.factory('viewStore', function(){
 				blurb: 'Empire State is the original Brick Oven Pizza Co franchise. Our founder, Giuseppe Giacosa, believed the best pizza came from top notch ingredients and a little Sicilian know-how. Millions of satisfied customers later, his legacy lives on.',
 				date: '1969',
 				myStyle: {
-						'postion' : "relative",
 						'background-color' : '#42423D',
 						'background' : "linear-gradient(to right, rgba(106, 106, 98, .3), rgba(106, 106, 98, .3)), url('../img/golden-gate.jpg')",
 						'min-height' : "490px",
@@ -125,7 +122,7 @@ app.factory('viewStore', function(){
 		}
 	];
 	
-	var filter = '';
+	var filter = 'New York';
 
 	return{
 		

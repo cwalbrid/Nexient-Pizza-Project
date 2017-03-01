@@ -1,9 +1,16 @@
-<ul>
-	<li ng-repeat="pizza in display.pizzaData" ng-click="isActive = !isActive">
-		<h3 class="pizza-name">{{pizza.name}}</h3>
-		<div isolate ng-class="{'userActive' : isActive, 'userInactive' : !isActive}">	
-			<h4 class="pizza-blurb">{{pizza.blurb}}</h4>
-			<p class="ingredients">{{pizza.ingredients}}</p>
-		</div>	
-	</li>
-</ul>
+
+<div class="menu-wrapper">
+
+	<p class="menu-title">Specialties:</p>
+
+	<ul class="menu">
+		<li ng-repeat="pizza in display.pizzaData" ng-click="isActive = !isActive">
+			<h3 class="pizza-name">{{pizza.name}}</h3>
+			<div isolate ng-class="{'userActive' : isActive, 'userInactive' : !isActive}">	
+				<h4 class="pizza-blurb">{{pizza.blurb}}</h4>
+				<p class="ingredients">{{pizza.ingredients}}</p>
+			</div>	
+		</li>
+	</ul>
+
+</div>

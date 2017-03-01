@@ -13,6 +13,8 @@ body{
 
 .icon{
 	position: absolute;
+	top: 17px;
+	left: 14px;
 	z-index: 25;
 }
 
@@ -24,6 +26,24 @@ body{
 .icon-copy{
 	display: inline-block;
 	color: white;
+	position: absolute;
+	left: 48px;
+	top: 12px;
+	text-transform: uppercase;
+	font-family: sans-serif;
+}
+
+.footer{
+	min-height: 160px;
+	overflow: hidden;
+}
+
+.footer-copy{
+	color: white;
+	font-size: 16px;
+	font-family: 'Noto Serif', serif;
+	width: 500px;
+	margin: 70px auto;
 }
 
 
@@ -39,7 +59,7 @@ body{
 	  url("../img/patio.jpg");
 
 	/* Set a specific height */
-	min-height: 490px; 
+	min-height: 650px; 
 	
 
 	/* Create the parallax scrolling effect */
@@ -55,21 +75,21 @@ body{
 }
 
 .home-title {
-	margin: 40% auto 30%;
-	width: 510px;
+	margin: 25% auto 18%;
+	width: 750px;
 	text-transform: uppercase;
-	font-family: sans-serif;
-	font-size: 44px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 67px;
 	color: white;
 }
 
 .nav{
-	margin: 45px auto;
+	margin: 0px auto;
 	padding: 0;
 	list-style-type: none;
   	overflow: hidden;
   	background: transparent;
-  	width: 420px;
+  	width: 100%;
 }
 
 .nav li{
@@ -79,78 +99,160 @@ body{
 
 .nav li a{
 	text-decoration: none;
-	font-family: serif;
+	font-family: 'Noto Serif', serif;
+	text-transform: uppercase;
 	color: white;
+	font-size: 40px;
+	padding: 0 25px;
+	transition: .3s;
 }
 
-.body-wrapper{
+.nav li a:hover{
+	color: #42423D;
+}
+
+.home-body-wrapper{
 	background-color: white;
 	width: 100%;
-	height: 400px;
-	position: absolute;
+	height: 600px;
+	overflow: hidden;
 }
 
-.byline{
-	margin: 0 auto;
+#arrow{
+	margin: 17px auto;
+	font-size: 40px;
+	color: #42423D;
+	width: 40px;
+
 }
 
-.byline h2{
-	margin: 0 auto;
-	width: 463px;
+.home-byline{
+	margin: 80px auto 90px;
 }
 
-.byline hr{
+.home-byline p{
+	margin: 10px auto 20px;
+	width: 840px;
+	font-size: 40px;
+	font-family: 'Noto Serif', serif;
+	color: #42423D;
+
+}
+
+.home-byline hr{
 	margin: 0 auto;
 	width: 70%;
 }
 
-.home-copy{
+.home-copy-wrapper{
 	margin: 80px auto;
 	width: 800px;
 }
 
-.home-copy-text{
-
+.home-copy{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	color: #42423D;
 }
-
 
 /*location.html*/
 
 
-.location-header-wrapper{
-	/*width: 100%;*/
-	position: relative;
-	height: 490px;
-}
-
 .location-header{
 	margin: 0 auto;
-	position: absolute;
+	overflow: hidden;
+	/*position: absolute;*/
 	width: 100%;
 }
 
 
 .franchise-title{
 	margin: 13% auto;
-	width: 420px;
+	width: 480px;
+	
+}
+
+.franchise-main{
 	text-transform: uppercase;
-	font-family: sans-serif;
-	font-size: 44px;
+	/*margin: 25% auto 18%;*/
+	/*width: 750px;*/
+	font-family: 'Noto Serif', sans-serif;
+	font-size: 67px;
 	color: white;
 }
 
-.location{
+.franchise-sub{
+	text-transform: uppercase;
+	font-family: 'Roboto', serif;
+	font-size: 44px;
+	color: white;
+	width: 460px;
+	margin: 10px 0 0 0;
+}
+
+.location-body-wrapper{
+	background-color: #EAE9E7;
+	width: 100%;
+	height: 800px;
+	overflow: hidden;
+}
+
+.location-byline{
+	margin: 60px auto;
+}
+
+.location-byline h2{
+	margin: 0 auto 20px;
+	width: 260px;
+}
+
+.location-byline hr{
+	margin: 0 auto;
+	width: 70%;
+}
+
+.location-copy-wrapper{
+	margin: 80px auto;
+	width: 800px;
+}
+
+.location-copy{
 
 }
 
-.menu{
+.menu-wrapper{
+	width: 70%;
+	margin: 0 auto;
+	overflow: hidden;
+}
 
+.menu{
+	margin-top: 20px;
+	/*background-color: red;*/
+	list-style-type: none;
+  	overflow: hidden;
+  	width: 100%;
+  	border: 1px solid black;
+}
+.menu li {
+	/*margin: 10px 0 10px;*/
+	padding: 30px;
+	border: 1px solid black;
+	transition: .3s;
+	font-family: sans-serif;
+}
+
+.menu li:hover {
+	cursor: pointer;
+	background-color: black;
+	color: #EAE9E7;
+	border: 1px solid #EAE9E7;
 }
 
 /*pizza.html*/
 
 .pizza-name{
-
+	font-family: serif;
 }
 
 .userActive{
@@ -162,7 +264,7 @@ body{
 }
 
 .pizza-blurb{
-
+	margin: 8px 0;
 }
 
 .ingredients{

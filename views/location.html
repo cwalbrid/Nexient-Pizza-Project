@@ -1,18 +1,33 @@
 	
-<div class="location-header-wrapper">
-	<div class="location-header" ng-style="display.myStyle">
+
+<div class="location-header" ng-style="display.myStyle">
 	
+	<div class="franchise-title">
+		<h1 class="franchise-main">{{display.franchise}}</h1> 
+		<h2 class="franchise-sub">Brick Oven Pizza Co.</h2>
+	</div>
+</div>	
+
+
+
+
+<div class="location-body-wrapper">
 	
-		<h1 class="franchise-title">{{display.franchise}} Brick Oven Pizza Co.</h1>
-	</div>	
+	<div class="location-byline">
+		<h2>{{display.city}} since {{display.date}}</h2><hr>
+	</div>
 
-</div>
+	<div class="location-copy-wrapper">
+		<p class="location-copy">{{display.blurb}}</p>
+	</div>
+	
+
+	<pizza></pizza>
+</div>	
 
 
-	<h2 class="location">{{display.city}} since {{display.date}}</h2>
-	<h3>{{display.blurb}}</h3>
 
-	<pizza class="menu"></pizza>
+
 
 
 

@@ -4,6 +4,8 @@ var app = angular.module('myApp');
 app.controller('myCtrl', function($scope, viewStore){
 	$scope.navArray = viewStore.getNav();
 	
+	$scope.display = viewStore.getView();
+
 	$scope.setLoc = function(location){
 		
 		viewStore.setFilter(location);
