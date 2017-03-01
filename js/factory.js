@@ -33,19 +33,19 @@ app.factory('viewStore', function(){
 					},
 				pizzaData: [
 					{
-						name: 'cheese1',
+						name: 'Four Cheese Classic',
 						blurb: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.',
-						ingredients: 'mozzarella, chevre, provalone'
+						ingredients: 'mozzarella, asiago, provalone, parmesan'
 					},
 					{
-						name: 'veggie1',
+						name: 'Margherita Fresca',
 						blurb: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.',
-						ingredients: 'green bell peppers, sun-dried tomatoes, mushrooms, spinach, feta'
+						ingredients: 'mushrooms, tomatoes, basil, olive oil'
 					},
 					{
-						name: 'meat1',
+						name: 'Patrick' + "'" + 's Favorite Pepperoni',
 						blurb: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.',
-						ingredients: 'pepperoni, sausage, bacon'
+						ingredients: 'pepperoni, onion, garlic, red bell pepper'
 					}
 				]
 			}
@@ -68,19 +68,19 @@ app.factory('viewStore', function(){
 					},
 				pizzaData: [
 					{
-						name: 'cheese2',
+						name: 'Goat Cheese Special',
 						blurb: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.',
-						ingredients: 'mozzarella, chevre, provalone'
+						ingredients: 'mozzarella, chevre, chives'
 					},
 					{
-						name: 'veggie2',
+						name: 'Super Mario Combo',
 						blurb: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.',
-						ingredients: 'green bell peppers, sun-dried tomatoes, mushrooms, spinach, feta'
+						ingredients: 'mushrooms, black olives, green olives, banana peppers, onion'
 					},
 					{
-						name: 'meat2',
+						name: 'All The Meats',
 						blurb: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.',
-						ingredients: 'pepperoni, sausage, bacon'
+						ingredients: 'pepperoni, sausage, ham, bacon'
 					}
 				]
 			}
@@ -103,19 +103,19 @@ app.factory('viewStore', function(){
 					},
 				pizzaData: [
 					{
-						name: 'cheese3',
+						name: 'Cow Tipper',
 						blurb: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.',
-						ingredients: 'mozzarella, chevre, provalone'
+						ingredients: 'mozzarella, feta, monterey jack'
 					},
 					{
-						name: 'veggie3',
+						name: 'Califonia Sunrise',
 						blurb: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.',
-						ingredients: 'green bell peppers, sun-dried tomatoes, mushrooms, spinach, feta'
+						ingredients: 'green bell peppers, sun-dried tomatoes, mushrooms, spinach'
 					},
 					{
-						name: 'meat3',
+						name: 'Hawaiian Barbecue',
 						blurb: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.',
-						ingredients: 'pepperoni, sausage, bacon'
+						ingredients: 'ham, pineapple, pepperoni, bbq sauce'
 					}
 				]
 			}
