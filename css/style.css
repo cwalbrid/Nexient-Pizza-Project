@@ -27,8 +27,8 @@ body{
 	display: inline-block;
 	color: white;
 	position: absolute;
-	left: 48px;
-	top: 12px;
+	left: -2px;
+	bottom: -16px;
 	text-transform: uppercase;
 	font-family: sans-serif;
 }
@@ -112,19 +112,19 @@ body{
 }
 
 .home-body-wrapper{
-	background-color: white;
+	background-color: #EAE9E7;
 	width: 100%;
 	height: 600px;
 	overflow: hidden;
 }
 
-#arrow{
+.home-arrow{
 	margin: 17px auto;
 	font-size: 40px;
 	color: #42423D;
 	width: 40px;
-
 }
+
 
 .home-byline{
 	margin: 80px auto 90px;
@@ -174,16 +174,14 @@ body{
 
 .franchise-main{
 	text-transform: uppercase;
-	/*margin: 25% auto 18%;*/
-	/*width: 750px;*/
-	font-family: 'Noto Serif', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 67px;
 	color: white;
 }
 
 .franchise-sub{
 	text-transform: uppercase;
-	font-family: 'Roboto', serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 44px;
 	color: white;
 	width: 460px;
@@ -193,17 +191,20 @@ body{
 .location-body-wrapper{
 	background-color: #EAE9E7;
 	width: 100%;
-	height: 800px;
+	height: 1120px;
 	overflow: hidden;
 }
 
 .location-byline{
-	margin: 60px auto;
+	margin: 40px auto;
 }
 
-.location-byline h2{
-	margin: 0 auto 20px;
-	width: 260px;
+.location-byline p{
+	margin: 10px auto 20px;
+	width: 465px;
+	font-size: 40px;
+	font-family: 'Noto Serif', serif;
+	color: #42423D;
 }
 
 .location-byline hr{
@@ -211,19 +212,35 @@ body{
 	width: 70%;
 }
 
+.location-arrow{
+	margin: 0px auto;
+	font-size: 40px;
+	color: #42423D;
+	width: 40px;
+}
+
 .location-copy-wrapper{
-	margin: 80px auto;
+	margin: 80px auto 120px;
 	width: 800px;
 }
 
 .location-copy{
-
+	font-family: 'Noto Serif', serif;
+	font-size: 24px;
+	color: #42423D;
 }
+
+/*pizza.html*/
 
 .menu-wrapper{
 	width: 70%;
 	margin: 0 auto;
 	overflow: hidden;
+}
+
+.menu-title{
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
 }
 
 .menu{
@@ -249,10 +266,9 @@ body{
 	border: 1px solid #EAE9E7;
 }
 
-/*pizza.html*/
-
 .pizza-name{
-	font-family: serif;
+	font-family: 'Noto Serif', serif;
+	text-transform: capitalize;
 }
 
 .userActive{
@@ -264,9 +280,10 @@ body{
 }
 
 .pizza-blurb{
-	margin: 8px 0;
+	margin: 14px 0;
 }
 
 .ingredients{
-
+	font-family: 'Noto Serif', serif;
+	font-size: 16px;
 }
