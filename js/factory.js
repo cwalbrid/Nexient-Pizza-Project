@@ -92,7 +92,7 @@ app.factory('viewStore', function(){
 			data: {
 				franchise: 'Golden Gate',
 				city: 'San Francisco',
-				blurb: 'Giuseppe and Loretta Giacosa yearned to see the West Coast, and established the Golden Gate Brick Oven Pizza franchise during San Francisco’s Summer of Love. Mobs of Flower Children swarmed the pizzeria, and it became a favorite spot for local musicians, poets, and artists to exhibit their work.',
+				blurb: 'Giuseppe and Loretta Giacosa yearned to see the West Coast, and established the Golden Gate Brick Oven Pizza franchise during San Francisco’s Summer of Love. Mobs of Flower Children swarmed the pizzeria, and it became a favorite spot for local musicians, poets, and artists to exhibit their work and perform.',
 				date: '1967',
 				phone:'(415) 668-5587',
 				myStyle: {
@@ -111,7 +111,7 @@ app.factory('viewStore', function(){
 						ingredients: 'mozzarella, provalone, monterey jack'
 					},
 					{
-						name: 'Califonia Sunrise',
+						name: 'California Sunrise',
 						blurb: 'A bright, slightly acidic veggie pie that is sure to satisfy',
 						ingredients: 'green bell peppers, sun-dried tomatoes, mushrooms, spinach'
 					},

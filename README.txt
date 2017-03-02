@@ -11,4 +11,3 @@ The site has two views:
 Because the data for each franchise populates a single view, adding new franchises does not require writing additional markup or linking to new html files. Instead, the information for the new franchise is added to the model (factory.js -> navData, viewData) and AngularJS does all the rendering. 
 
 The repo for the site can be viewed here: https://github.com/cwalbrid/Nexient-Pizza-Project
-
