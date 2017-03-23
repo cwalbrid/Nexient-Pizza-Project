@@ -1,6 +1,6 @@
 Hello!
 
-Brick Oven Pizza Co. is pizza chain website built with AngularJs. It must be run on a server to view. Just open the command line and run command ‘http-server’ while inside the directory, and view the localhost address in a web browser.
+Brick Oven Pizza Co. is pizza chain website built with AngularJS. It must be run on a server to view. Just open the command line and run command ‘http-server’ while inside the directory, and view the localhost address in a web browser.
 
 The site has two views:
 
