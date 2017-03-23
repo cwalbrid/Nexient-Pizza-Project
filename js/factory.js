@@ -44,8 +44,8 @@ app.factory('viewStore', function(){
 						ingredients: 'mushrooms, tomatoes, basil, olive oil'
 					},
 					{
-						name: 'Patrick' + "'" + 's Favorite Pepperoni',
-						blurb: 'A unique pepperoni recipe invented by Giuseppe’s childhood friend, Patrick Callahan',
+						name: 'Patrick\'s Favorite Pepperoni',
+						blurb: 'A unique pepperoni recipe invented by Giuseppe\’s childhood friend, Patrick Callahan',
 						ingredients: 'pepperoni, onion, garlic, red bell pepper'
 					}
 				]
@@ -56,7 +56,7 @@ app.factory('viewStore', function(){
 			data: {
 				franchise: 'Windy City',
 				city: 'Chicago',
-				blurb: 'Giuseppe founded the Windy City Brick Oven Pizza franchise when his High School Sweetheart, Loretta Simmons, moved to Chicago to pursue a career as a blues singer. Chicagoans fell in love with Brick Oven Pizza’s signature style, and Giuseppe married Loretta in 1964.',
+				blurb: 'Giuseppe founded the Windy City Brick Oven Pizza franchise when his High School Sweetheart, Loretta Simmons, moved to Chicago to pursue a career as a blues singer. Chicagoans fell in love with Brick Oven Pizza\’s signature style, and Giuseppe married Loretta in 1964.',
 				date: '1963',
 				phone:'(773) 525-4582',
 				myStyle: {
@@ -76,7 +76,7 @@ app.factory('viewStore', function(){
 					},
 					{
 						name: 'Super Mario Combo',
-						blurb: 'A veggie pie inspired by Giuseppe’s cousin, Mario, who loved to eat olives from the can',
+						blurb: 'A veggie pie inspired by Giuseppe\’s cousin, Mario, who loved to eat olives from the can',
 						ingredients: 'mushrooms, black olives, green olives, banana peppers, onion'
 					},
 					{
@@ -92,7 +92,7 @@ app.factory('viewStore', function(){
 			data: {
 				franchise: 'Golden Gate',
 				city: 'San Francisco',
-				blurb: 'Giuseppe and Loretta Giacosa yearned to see the West Coast, and established the Golden Gate Brick Oven Pizza franchise during San Francisco’s Summer of Love. Mobs of Flower Children swarmed the pizzeria, and it became a favorite spot for local musicians, poets, and artists to exhibit their work and perform.',
+				blurb: 'Giuseppe and Loretta Giacosa yearned to see the West Coast, and established the Golden Gate Brick Oven Pizza franchise during San Francisco\’s Summer of Love. Mobs of Flower Children swarmed the pizzeria, and it became a favorite spot for local musicians, poets, and artists to exhibit their work and perform.',
 				date: '1967',
 				phone:'(415) 668-5587',
 				myStyle: {
