@@ -20,7 +20,7 @@ app.factory('viewStore', function(){
 			data: {
 				franchise: 'Empire State',
 				city: 'New York',
-				blurb: 'Empire State is the original Brick Oven Pizza Company. Giuseppe Giacosa dreamt of a neighborhood pizzeria where ordinary folks could gather to share delicious food and enjoy one another'+"’"+'s company. As word spread about the restaurant, customers came from miles around to experience the Best Pizza in the Borough.',
+				blurb: 'Empire State is the original Brick Oven Pizza Company. Giuseppe Giacosa dreamt of a neighborhood pizzeria where ordinary folks could gather to share delicious food and enjoy one another\'s company. As word spread about the restaurant, customers came from miles around to experience the Best Pizza in the Borough.',
 				date: '1952',
 				phone:'(718) 599-2211',
 				myStyle: {
